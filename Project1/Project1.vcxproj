@@ -132,9 +132,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <MASM Include="..\hw1\112403520_v1.asm">
+    <None Include="..\hw1\112403520_v1.asm">
       <FileType>Document</FileType>
-    </MASM>
+    </None>
+    <MASM Include="main.asm" />
     <None Include="..\lib\GraphWin.inc" />
     <None Include="..\lib\Irvine32.inc" />
     <None Include="..\lib\Macros.inc" />
