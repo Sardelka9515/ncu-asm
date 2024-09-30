@@ -132,15 +132,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="..\hw1\112403520_v1.asm">
+    <None Include="..\hw1\112403520_hw1.asm">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="..\lab3\lab3.asm">
       <FileType>Document</FileType>
     </None>
     <MASM Include="main.asm" />
-    <None Include="..\lib\GraphWin.inc" />
-    <None Include="..\lib\Irvine32.inc" />
-    <None Include="..\lib\Macros.inc" />
-    <None Include="..\lib\SmallWin.inc" />
-    <None Include="..\lib\VirtualKeys.inc" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\lib\Irvine32.lib" />

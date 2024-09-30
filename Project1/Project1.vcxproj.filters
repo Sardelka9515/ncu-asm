@@ -5,32 +5,13 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="hw1">
-      <UniqueIdentifier>{593465ad-59ea-4e82-bca1-122ffb284aee}</UniqueIdentifier>
-    </Filter>
     <Filter Include="libs">
       <UniqueIdentifier>{80a5c00d-1924-4bfa-9ad3-22ed1890674e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\lib\GraphWin.inc">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="..\lib\Irvine32.inc">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="..\lib\Macros.inc">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="..\lib\SmallWin.inc">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="..\lib\VirtualKeys.inc">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="..\hw1\112403520_v1.asm">
-      <Filter>hw1</Filter>
-    </None>
+    <None Include="..\hw1\112403520_hw1.asm" />
+    <None Include="..\lab3\lab3.asm" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\lib\Irvine32.lib">

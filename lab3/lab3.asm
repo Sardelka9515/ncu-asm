@@ -22,10 +22,16 @@ Result BYTE 9 DUP(?)
 
 .code
 main PROC
-	mov ecx,LENGTHOF Result
-	lea eax,Result
-	xor ebx,ebx
-	mul ax,bx
+	mov ecx,LENGTHOF Result ; Set ecx as loop count
+	mov edi,OFFSET Result	; Set edi as address of result
+	xor ax,ax				; set ax to 0
+	
+L1:
+	add ax,9	; add 9 to ax
+	
+	mov [edi],ax	; Store multiplied result in destination
+	inc edi			; Increase address to point to next destination
+	loop L1			; next loop iteration
 
 	
 	INVOKE ExitProcess,0
