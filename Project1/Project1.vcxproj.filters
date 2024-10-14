@@ -12,6 +12,8 @@
   <ItemGroup>
     <None Include="..\hw1\112403520_hw1.asm" />
     <None Include="..\lab3\lab3.asm" />
+    <None Include="..\lab4\lab4.asm" />
+    <None Include="..\lab5\lab5.asm" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\lib\Irvine32.lib">

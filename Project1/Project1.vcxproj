@@ -138,6 +138,12 @@
     <None Include="..\lab3\lab3.asm">
       <FileType>Document</FileType>
     </None>
+    <None Include="..\lab4\lab4.asm">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="..\lab5\lab5.asm">
+      <FileType>Document</FileType>
+    </None>
     <MASM Include="main.asm" />
   </ItemGroup>
   <ItemGroup>
